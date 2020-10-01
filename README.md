@@ -1,1 +1,3 @@
 # Question-Answering-onSQuAD-using-BERT
+
+Textual Question Answering on SQuAD(Stanford Question Answering Dataset) v2.0 using BERT. It uses huggingface transformers library. A BERT for sequence classification model is used to help BERT for question answering model to classify weather a question has answer or not. Then both models are ensembled for better help in classification of answer or no answer. Finally, a json file is made in which if the model thinks there is answer,the predicted answer is given else null string is given i.e, " ". Then this json file is evaluated using Evaluation Script v2.0 on SQuAD official [page](https://rajpurkar.github.io/SQuAD-explorer/).  
